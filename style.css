@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../file.jpg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal {
+  background-color: #e9b24c;
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+
+.esquerda {
+  background-image: url(../Design\ sem\ nome.png);
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 10px 0 0 10px;
+}
+
+.direita {
+  background-image: linear-gradient(to right, #dd6808, #e7b78b);
+
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 0 10px 10px 0;
+}
+form {
+  background-color: rgb(235, 190, 108);
+  width: 50%;
+  height: 80%;
+  padding: 4% 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 10px;
+}
+.linha {
+  background-color: black;
+  height: 5px;
+  width: 210;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-group input {
+  padding: 8px;
+  border: 0;
+  border-radius: 4px;
+}
+.lembrar {
+  display: flex;
+  gap: 5px;
+}
+button {
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(238, 89, 2);
+}
